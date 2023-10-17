@@ -1,0 +1,11 @@
+TYPE
+	Cutter_States: 
+		(
+		Cutter_ready_to_be_initialized, 
+		Cutter_initializing, 
+		Cutter_ready_to_be_enabled, 
+		Cutter_enabling, 
+		Cutter_ready_to_be_disabled, 
+		Cutter_disabling
+	);
+END_TYPE

@@ -1,0 +1,10 @@
+Vx_dot=	(g*m*mu_rx*(a + b) + m*psi_dot*(a + b)*(b*psi_dot + vy) + (mu_fx - mu_rx)*(b*g*m + h*m*psi_dot*vy + psi_dot**2*(Ixz + b*h*m)))/(m*(a + b + h*mu_fx - h*mu_rx))
+
+Vy_dot=	(-Izz*m*psi_dot*vx*(a + b + h*mu_fx - h*mu_rx) + g*m*(Izz*a*mu_ry + Izz*b*mu_ry + Izz*h*mu_fx*mu_ry - Izz*h*mu_fy*mu_rx + a*b**2*m*mu_ry + a*b*h*m*mu_fy*mu_rx + b**3*m*mu_ry + b**2*h*m*mu_fx*mu_ry) + h*m*psi_dot*(b*psi_dot + vy)*(-Izz*mu_fy + Izz*mu_ry + a*b*m*mu_fy + b**2*m*mu_ry) - (b*g*m + h*m*psi_dot*vy + psi_dot**2*(Ixz + b*h*m))*(-Izz*mu_fy + Izz*mu_ry + a*b*m*mu_fy + b**2*m*mu_ry))/(Izz*m*(a + b + h*mu_fx - h*mu_rx))
+
+Psi_double_dot=	(Ixz*a*mu_fy*psi_dot**2 + Ixz*b*mu_ry*psi_dot**2 + a*b*g*m*mu_fy - a*b*g*m*mu_ry - a*g*h*m*mu_fy*mu_rx - b*g*h*m*mu_fx*mu_ry)/(Izz*(a + b + h*mu_fx - h*mu_rx))
+
+Ffz=	(-Ixz*psi_dot**2 - b*g*m + g*h*m*mu_rx)/(a + b + h*mu_fx - h*mu_rx)
+
+Frz=	(Ixz*psi_dot**2 - a*g*m - g*h*m*mu_fx)/(a + b + h*mu_fx - h*mu_rx)
+
