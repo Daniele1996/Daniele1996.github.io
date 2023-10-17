@@ -1,6 +1,0 @@
-VAR
-	Led_Start : BOOL;
-	Led_Stop : BOOL;
-	Led_Reset : BOOL;
-	Blink : BlinkFB;
-END_VAR

@@ -1,9 +1,0 @@
-TYPE
-	Cutter_States: 
-		(
-		Cutter_ready_to_be_initialized, 
-		Cutter_initializing, 
-		Cutter_ready_to_be_enabled, 
-		Cutter_enabling
-	);
-END_TYPE

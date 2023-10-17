@@ -1,4 +1,0 @@
-VAR
-	state: Main_States:= Main_ready_to_be_initialized;
-END_VAR
-
