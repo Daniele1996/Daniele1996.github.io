@@ -1,0 +1,28 @@
+(* Generic-Axis *)
+VAR 
+	gConveyor : ACP10AXIS_typ;
+	gKnife : ACP10AXIS_typ;
+END_VAR
+
+(* Logical Buttons*)
+VAR
+	Init_logical : BOOL;
+	Start_logical : BOOL;
+	On_Phase_Stop_logical : BOOL;
+	Trigger_logical : BOOL;
+	Reset_logical : BOOL;
+END_VAR
+(* Handlers *)
+VAR
+	Machine_Handler : Sys_Handler;
+	Conveyor_Handler : Sub_Sys_Handler;
+	Cutter_Handler : Sub_Sys_Handler;
+	Signal_Management_Handler : Sys_Handler;
+END_VAR
+
+VAR	
+	CONVEYOR_VELOCITY : REAL := 100;
+	CONVEYOR_MAX_VELOCITY : REAL := 100;
+	CUTTER_VELOCITY : REAL := 400;
+	CUTTER_MAX_VELOCITY : REAL := 400;
+END_VAR

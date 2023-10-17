@@ -1,0 +1,32 @@
+VAR
+	Knife : gAxis;
+	CamTableSelect : MC_CamTableSelect;
+	CamTableID : USINT;
+	
+END_VAR
+
+VAR
+	state: Cutter_States := Cutter_ready_to_be_initialized;
+END_VAR
+
+VAR	
+	Axis_Command : WORD := AXIS_NULL_COMMAND;
+	Axis_Command_Executed : BOOL;
+	Axis_Enable : BOOL;
+END_VAR
+
+VAR
+	CUTTER_POSITION : REAL;
+	CUTTER_ACTUAL_VELOCITY : REAL;
+	CUTTER_ACCELLERATION : REAL := 400;
+	CUTTER_DEACCELLERATION : REAL := 400;
+END_VAR
+
+VAR CONSTANT
+	AXIS_NULL_COMMAND : WORD := 0;
+	AXIS_MOVE_VELOCITY : WORD := 1;
+	AXIS_MOVE_ADDITIVE : WORD := 2;
+	AXIS_CAM_IN : WORD := 3;
+	AXIS_STOP : WORD := 4;
+END_VAR
+

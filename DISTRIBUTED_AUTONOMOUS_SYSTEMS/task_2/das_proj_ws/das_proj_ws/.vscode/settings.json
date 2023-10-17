@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/piter/Desktop/DAS_PROJ/DAS_PROJ_ws/build/consensus_iterative",
+        "/home/piter/Desktop/DAS_PROJ/DAS_PROJ_ws/install/consensus_iterative/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/piter/Desktop/DAS_PROJ/DAS_PROJ_ws/build/consensus_iterative",
+        "/home/piter/Desktop/DAS_PROJ/DAS_PROJ_ws/install/consensus_iterative/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ]
+}

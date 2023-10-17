@@ -1,0 +1,4 @@
+
+VAR
+	state: Machine_States := Machine_ready_to_be_initialized;
+END_VAR
